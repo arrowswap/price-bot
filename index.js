@@ -73,6 +73,7 @@ async function monitorPrice() {
       inputAmount: web3.utils.toWei('1', 'ETHER')
     })
 
+    /*
     await checkPair({
       inputTokenSymbol: 'ETH',
       inputTokenAddress: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
@@ -97,6 +98,8 @@ async function monitorPrice() {
       inputAmount: web3.utils.toWei('1', 'ETHER')
     })
 
+    */
+   
   } catch (error) {
     console.error(error)
     monitoringPrice = false
